@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: #fbffef;
+}
+/* Set margin:0 to remove default margin on the page */
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #AAC8A7;
+  color: #fff;
+}
+/* Added flexbox container to make it responsive and to place the element on the left and right sides of the page (for that justify-content:space between was added */
+/* Added align-items:center to align h1 with nav elements */
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+/* Added list-style-type: none; to remove bullet points from unordered list */
+/* Added flex-wrap: wrap; to make it responsive on smaller screens*/
+
+nav a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+li {
+  font-size: 25px;
+  padding: 20px;
+}
+
+h1 {
+  margin: 20px;
+}
+/* Header */
