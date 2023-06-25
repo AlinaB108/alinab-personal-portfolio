@@ -38,3 +38,55 @@ h1 {
   margin: 20px;
 }
 /* Header */
+
+.portfolio-img {
+  float: right;
+  margin: 10px;
+}
+
+p {
+  text-align: justify;
+  font-size: 25px;
+  line-height: 1.7;
+  color: #323b39;
+  width: 90%;
+}
+
+/* Main */
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 85%;
+  margin: 0 auto;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+/* Added justify-content: center */
+
+.child-container, .child-container-two {
+  margin: 20px 0 20px;
+  padding: 20px;
+}
+
+.child-container {
+  flex: 1;
+}
+/*Added flex:1 to make the container a bit smaller but to also align it with the rest of .child-container*/
+
+.child-container-two {
+  flex: 4;
+  border-left: 2px solid #AAC8A7;
+}
+/* Added flex:4 to make it bigger than .child-container */
+
+h2 {
+  color: #323b39;
+  text-align: center;
+  font-size: 30px;
+}
+
+.portfolio-img {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 35px;
+}
