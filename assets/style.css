@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #fbffef;
+  font-family: 'Ysabeau Office', sans-serif;
 }
 /* Set margin:0 to remove default margin on the page */
 
@@ -29,6 +30,11 @@ nav a {
   text-decoration: underline;
 }
 
+nav a:hover {
+  color: #E3F2C1;
+  text-decoration: underline;
+}
+
 li {
   font-size: 25px;
   padding: 20px;
@@ -36,6 +42,7 @@ li {
 
 h1 {
   margin: 20px;
+  color: #61835e;
 }
 /* Header */
 
@@ -111,7 +118,6 @@ h2 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* flex: 1; check if I need it or not*/ 
 }
 /* Added justify-content:center to place elements in the middle of the container */
 /* Added flex-wrap:wrap, so elements in .abstract-image class would move to another row when the size of the page is smaller */
@@ -138,6 +144,10 @@ h2 {
   color: #323b39;
 }
 
+.contact-me ul li a:hover {
+  color: #AAC8A7;
+}
+
 .resume {
   display: flex;
   justify-content: center;
@@ -146,4 +156,37 @@ h2 {
 h3 {
   color: #323b39;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  #app-photo {
+    width: 550px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  #abstract-image {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #app-photo {
+    width: 350px;
+  }
+
+  .portfolio-img {
+    width: 180px;
+    padding: 0;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  #abstract-image {
+    width: 150px;
+  }
 }
