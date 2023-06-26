@@ -1,15 +1,23 @@
 # alinab-personal-portfolio
 
 ## Description
-Soon
+A developer's personal portfolio with some personal infromation, examples of past work and contacts.<br> 
+Index.html includes few sections:
+<ul>
+  <li>Header</li>
+  <li>Main section</li>
+  <li>Footer</li>
+</ul>
+
+Header includes a name on the left side and links on the right side.<br>
+
+Main section includes four parent containers with the same class name for all of them. There are two child containers inside of each parent container. Child-container shows the name of the section and child-container-two shows main the information.<br>
+
+Every container has flexbox to make elements on the page responsive for different screen sizes.
 
 ## Usage
 You can find the site here: https://alinab108.github.io/alinab-personal-portfolio/
 ![The screenshot of the page](assets/images/page-screenshot.png) 
-
-## Credits
-
-?
 
 ## License
 
