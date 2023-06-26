@@ -39,6 +39,7 @@ h1 {
 }
 /* Header */
 
+/* Main */
 .portfolio-img {
   float: right;
   margin: 10px;
@@ -52,7 +53,18 @@ p {
   width: 90%;
 }
 
-/* Main */
+h2 {
+  color: #323b39;
+  text-align: center;
+  font-size: 30px;
+}
+
+.portfolio-img {
+  margin: 5px;
+  padding: 20px;
+  border-radius: 35px;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -79,14 +91,37 @@ p {
 }
 /* Added flex:4 to make it bigger than .child-container */
 
-h2 {
-  color: #323b39;
-  text-align: center;
-  font-size: 30px;
+#app-photo {
+  border: 5px solid #AAC8A7;
+  display: flex;
+  justify-content: center;
 }
 
-.portfolio-img {
+#app-photo:hover {
+  background-color: #E3F2C1;
+  opacity: 0.5;
+}
+
+.app-photo {
+  display: flex;
+  justify-content: center;
+}
+
+.abstract-image {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* flex: 1; check if I need it or not*/ 
+}
+/* Added justify-content:center to place elements in the middle of the container */
+/* Added flex-wrap:wrap, so elements in .abstract-image class would move to another row when the size of the page is smaller */
+
+#abstract-image {
+  border: 5px solid #AAC8A7;
   margin: 5px;
-  padding: 20px;
-  border-radius: 35px;
+}
+
+#abstract-image:hover {
+  background-color: #E3F2C1;
+  opacity: 0.5;
 }
